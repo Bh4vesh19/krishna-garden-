@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Bh4vesh19.github.io/krishna-garden-demo",
+  "homepage": "https://Bh4vesh19.github.io/krishna-garden-",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
