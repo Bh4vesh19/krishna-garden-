@@ -9,10 +9,10 @@ import Location from './pages/Location';
 
 function App() {
   return (
-    <Router>
+    <Router basename={import.meta.env.BASE_URL}>
       <div className="app">
         <Navbar />
-        <main>
+        <main style={{ minHeight: 'calc(100vh - 400px)' }}>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/restaurant" element={<Restaurant />} />
